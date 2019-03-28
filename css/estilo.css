@@ -1,0 +1,328 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family:"Century Ghotic";
+	line-height:18px;
+	font-size:16px;
+	color:#999;
+}
+
+.inicio {
+	background: url(../imagem/barra_topo.png);
+	width: 940px;
+	height: 150px;
+	border-bottom: 5px solid #090;
+	margin: auto;
+}
+	
+.logo {
+	float:left;
+	background:url(../imagem/logotipo.png);
+	width:140px;
+	height:80px;
+	position:relative;
+	margin:40px 0 0 15px;
+}
+
+.inicio .menu ul {
+	position:relative;
+	float:right;
+	margin:-40px 25px 0 100px;
+}
+
+.inicio .menu ul li {
+	display:inline;
+	padding:10px 0 0 60px;
+	float:none;
+}
+
+.inicio .menu ul li a {
+	color:#0F0;
+	text-decoration:none;
+}
+
+.inicio .menu ul li a:hover {
+	text-decoration:underline;
+	color:#0f0;
+}
+
+.inicio .menu ul li .active {
+	color:#f90;
+	font-weight:bold;
+}
+
+/* Inicio da Página Inicial */
+
+#fundo_inicial {
+	width: 940px;
+	height: 872px;
+	margin: 10px auto 20px auto;
+	background:#FFF;
+}
+
+.box_img1 {
+	background:url(../imagem/foto1.jpg);
+	width:450px;
+	height:300px;
+	float:left;
+	position:relative;
+	margin:15px;
+}
+
+.box_txt1 {
+	width:420px;
+	height:300px;
+	float:left;
+	position:relative;
+	margin:15px;
+}
+
+.box_txt1 h1 {
+	font-size:24px;
+	color:#090;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.box_txt1 p {
+	text-align:justify;
+}
+
+.box_txt1 a {
+	text-decoration:none;
+	color:#f30;
+}
+
+.box_txt1 a:hover {
+	text-decoration:underline;
+	color:#f60;
+}
+
+.regua {
+	width:900px;
+	margin:auto;
+	border:solid 1px #ccc;
+	clear:both;
+}
+
+.grupo_fotos {
+	background:url(../imagem/grupo1.jpg);
+	width:920px;
+	height:250px;
+	margin:auto;
+}
+
+.box_txt2 {
+	width: 900px;
+	height: 150px;
+	position: relative;
+	margin: auto;
+}
+
+.box_txt2 h1 {
+	font-size:24px;
+	color:#090;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.box_txt2 p {
+	text-align:justify;
+}
+
+.rodape {
+	width:940px;
+	height:120px;
+	margin:20px auto;
+	clear:both;
+	background:url(../imagem/rodape.fw.png);
+}
+
+/* fim da pàgina Inicial */
+
+/* Inicio da Página Plantas Medicinais */
+
+#fundo_medicinais {
+	width: 940px;
+	height: 670px;
+	margin: 10px auto 20px auto;
+	background:#FFF;
+}
+
+.box_txt3 {
+	width:900px;
+	height:150px;
+	float:left;
+	position:relative;
+	margin:15px;
+}
+
+.box_txt3 h1 {
+	font-size:24px;
+	color:#090;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.box_txt3 p {
+	text-align:justify;
+}
+
+.box_imagens {
+	position:relative;
+	width:900px;
+	height:350px;
+	margin:20px auto auto 20px;
+	float:left;
+}
+
+/* fim da página plantas medicinais */
+
+/* inicio da página plantas sagradas */
+
+#fundo_plantas_sagradas {
+	width:940px;
+	height:450px;
+	margin:10px auto 20px auto;
+	background:#FFF;
+}
+
+.box_img2 {
+	width:400px;
+	height:300px;
+	float:left;
+	position:relative;
+	margin:15px 15px 10px 15px;
+	background:url(../imagem/sagrada.JPG);
+}
+
+.box_txt4 {
+	width:450px;
+	height:300px;
+	float:left;
+	position:relative;
+	margin:15px;
+}
+
+.box_txt4 h1 {
+	font-size:24px;
+	color:#090;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.box_txt4 p {
+	text-align:justify;
+}
+
+/* fim plantas sagradas */
+
+/* inicio nutrição */
+
+#fundo_nutricao {
+	width:940px;
+	height:450px;
+	margin:10px auto 20px auto;
+	background:#FFF;
+}
+
+.box_txt5 {
+	width:450px;
+	height:300px;
+	float:left;
+	position:relative;
+	margin:15px;
+}
+
+.box_txt5 h1 {
+	font-size:24px;
+	color:#090;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.box_txt5 p {
+	text-align:justify;
+}
+
+.box_img3 {
+	width:150px;
+	height:100px;
+	float:left;
+	position:relative;
+	margin:15px 15px 10px 15px;
+	background:url(../imagem/nutricao/1.jpg);
+}
+
+.box_img4 {
+	width:150px;
+	height:100px;
+	float:left;
+	position:relative;
+	margin:15px 15px 10px 15px;
+	background:url(../imagem/nutricao/2.jpg);
+}
+
+.box_img5 {
+	width:150px;
+	height:100px;
+	float:left;
+	position:relative;
+	margin:15px 15px 10px 15px;
+	background:url(../imagem/nutricao/3.jpg);
+}
+
+.box_img6 {
+	width:150px;
+	height:100px;
+	float:left;
+	position:relative;
+	margin:15px 15px 10px 15px;
+	background:url(../imagem/nutricao/4.jpg);
+}
+
+/*fim da página nutrição */
+
+/*inicio da página contato */
+
+#fundo_fale_conosco {
+	width:940px;
+	height:550px;
+	position:relative;
+	margin:10px auto 20px auto;
+	background:#FFF;
+}
+
+.formulario {
+	width:450px;
+	height:400px;
+	float:left;
+	position:relative;
+	margin:15px;
+}
+
+.formulario h1 {
+	font-size:24px;
+	color:#090;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.mapa {
+	width:430px;
+	height:350px;
+	float:left;
+	position:relative;
+	margin:15px;
+}
+
+.mapa a {
+	text-decoration:none;
+	color:#f60;
+}
+
+.mapa a:hover {
+	text-decoration:underline;
+	color:#f30;
+}
